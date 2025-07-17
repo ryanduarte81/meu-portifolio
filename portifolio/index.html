@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero-section"> 
+    <div class="hero-text">
+      <h1 class="hero-title">Olá, sou<br><span>Ryan Duarte</span></h1>
+      <p class="hero-desc">Sou apaixonado por tecnologia, design e desenvolvimento web. Busco criar experiências digitais modernas, intuitivas e impactantes.</p>
+      <a href="curriculo_ryan_duarte, atualizado.pdf" class="btn-cv" download>Download CV</a>
+    </div>
+    <div class="hero-photo-hex">
+      <div class="hexagon">
+        <img src="Minhafoto.png" alt="Minha foto de perfil" class="sr-only">
+      </div>
+    </div>
+  </div>
+  <main>
+    <section id="sobre">
+      <h1>Sobre Mim</h1>
+      <p>meu nome é Ryan Duarte Vital tenho 23 anos e atualmente estou cursando engenharia de software na faculdade Estácio, e buscando uma oportunidade para ingressar no mercado de trabalho, com o objetivo de me tornar um desenvolvedor full stack.</p>
+      
+    </section>
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <div class="skills">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-logo">
+          <span>HTML</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-logo">
+          <span>CSS</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-logo">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-logo">
+          <span>Python</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" class="skill-logo">
+          <span>SQL</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="skill-logo github-bg">
+          <span>GitHub</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="skill-logo">
+          <span>Node.js</span>
+        </div>
+      </div>
+    </section>
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="projects">
+        <div class="project-card">
+          <img src="https://api.iconify.design/mdi:format-list-checkbox.svg?color=%23a259f7" alt="To-Do List Logo" class="project-thumb">
+          <h3>TO - DO LIST</h3>
+          <p>Um projeto incrível feito com JavaScript, HTML e CSS. Clique para ver mais detalhes!</p>
+          <a href="https://github.com/ryanduarte81/to-do-list" class="btn-project" target="_blank">Ver Projeto</a>
+        </div>
+        <div class="project-card">
+          <img src="mario (1).gif" alt="Super Mario" class="project-thumb">
+          <h3>Simulador Mario Kart</h3>
+          <p>Simulador de corridas inspirado no Mario Kart, desenvolvido em Node.js. Lógica de jogo, personagens e pistas aleatórias!</p>
+          <a href="https://github.com/ryanduarte81/Simulador-de-Corridas-do-Mario-Kart-com-Node.js" class="btn-project" target="_blank">Ver Projeto</a>
+        </div>
+        <div class="project-card">
+          <img src="https://api.iconify.design/mdi:calendar-account.svg?color=%23a259f7" alt="Ícone de Idade" class="project-thumb">
+          <h3>Verificador de Idade</h3>
+          <p>Aplicação web para calcular e verificar a idade do usuário. Feito com HTML, CSS e JavaScript.</p>
+          <a href="https://github.com/ryanduarte81/verificador-de-idade-" class="btn-project" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
